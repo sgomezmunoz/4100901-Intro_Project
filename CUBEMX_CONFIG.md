@@ -71,6 +71,13 @@ Ve a la pestaña **"Pinout & Configuration"**.
 
 ![Generate Code](assets/generate_code.png)
 
+### 4. Abrir el Proyecto en VS Code
+
+1.  Abre VS Code.
+2.  Ve a `STM32` > `Import CMake Project`.
+3.  Navega hasta la carpeta que acabas de clonar (`4100901-Intro_Project`) y selecciónala.
+4.  VS Code debería detectar que es un proyecto STM32 (gracias al archivo `.ioc` o `CMakeLists.txt`) y la extensión STM32 te podría ofrecer configurarlo.
+
 ¡La configuración del hardware está lista! Ahora vamos a escribir la lógica de la aplicación.
 
 **Siguiente Paso:** [Implementación del Código (CODE_IMPLEMENTATION.md)](CODE_IMPLEMENTATION.md)
