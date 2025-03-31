@@ -30,23 +30,21 @@ Trabajaremos utilizando GitHub. Deberás crear tu propia copia (fork) de este re
 
 1.  Ve a la página de *tu* repositorio forkeado en GitHub (el que acabas de crear).
 2.  Haz clic en el botón verde **"< > Code"**.
-3.  Copia la URL HTTPS (algo como `https://github.com/"TuUsuario"/4100901-Intro_Project.git`).
+3.  Copia la URL HTTPS (algo como `https://github.com/TuUsuario/4100901-Intro_Project.git`).
 4.  Abre una terminal o Git Bash en el directorio donde deseas guardar tus proyectos del curso (ej. `Documentos/UNAL/Estructuras`).
 5.  Ejecuta el comando `git clone` seguido de la URL que copiaste:
     ```bash
     git clone https://github.com/TuUsuario/4100901-Intro_Project.git
     ```
-6.  Esto descargará el repositorio a una nueva carpeta llamada `4100901-Intro_Project`. Ingresa a esa carpeta:
-    ```bash
-    cd 4100901-Intro_Project
-    ```
+6.  Esto descargará el repositorio a una nueva carpeta llamada `4100901-Intro_Project`.
+![repo_clone](assets/repo_clone.png)
+
 
 ### 2.3 Abrir el Proyecto en VS Code
 
 1.  Abre VS Code.
 2.  Ve a `File` > `Open Folder...` (o `Archivo` > `Abrir Carpeta...`).
-3.  Navega hasta la carpeta que acabas de clonar (`4100901-Intro_Project`) y selecciónala.
-4.  VS Code debería detectar que es un proyecto STM32 (gracias al archivo `.ioc` o `CMakeLists.txt`) y la extensión STM32 te podría ofrecer configurarlo.
+3.  Navega hasta la carpeta que acabas de clonar (`4100901-Intro_Project`) y selecciónala para abrir.
 
 ¡Listo! Tu entorno de desarrollo está preparado. Ahora puedes pasar a la siguiente sección para configurar el microcontrolador.
 
