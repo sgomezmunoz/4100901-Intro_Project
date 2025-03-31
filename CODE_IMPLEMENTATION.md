@@ -204,6 +204,10 @@ En VS Code, puedes buscar Serial Monitor en las extensiones e instalar uno. Lueg
 
 - **HAL_GetTick()**: Proporciona una base de tiempo en milisegundos para tareas como el parpadeo del LED, el debounce y el temporizador del LED externo.
 
+- **Flujo del código:** 
+
+![Code Diagram](assets/code_diagram.png)
+
 ## Experimentación
 
 ¡Ahora es tu turno! Intenta modificar el código:

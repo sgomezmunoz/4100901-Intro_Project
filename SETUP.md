@@ -7,10 +7,14 @@ Este documento te guiará a través de la instalación de las herramientas neces
 Asegúrate de tener instaladas las siguientes herramientas en tu sistema operativo (Windows, macOS o Linux):
 
 *   **Visual Studio Code Insiders (VS Code):** Un editor de código fuente moderno y extensible.
-    *   [Descargar VS Code Insiders](https://code.visualstudio.com/insiders/)
+    *   Descargar [VS Code Insiders](https://code.visualstudio.com/insiders/)
+    *   [Guía de Instalación](https://www.youtube.com/watch?v=8JCVAiSZAAM) (les recomiendo instalar *VS Code* ***Insiders*** en lugar de *VS Code*)
+*   **STM32CubeCLT:** Conjunto de herramientas para entornos de desarrollo integrado (IDE).
+    *   Descargar e Instalar [STM32CubeCLT (Command Line Tools)](https://www.st.com/en/development-tools/stm32cubeclt.html) 
+*   **STM32CubeMX:** Herramienta gráfica para configuración de los microcontroladores y microprocesadores STM32.
+    *   Descaragar e Instalar [STM32CubeMX (Code Generator)](https://www.st.com/en/development-tools/stm32cubemx.html) 
 *   **Extensión STM32 VS Code Extension:** Proporciona integración con herramientas de STMicroelectronics dentro de VS Code.
     *   Instálala desde el Marketplace siguiendo este [video tutorial](https://www.youtube.com/watch?v=DLmbNfUh62E).
-    *   Esta extensión requiere la instalación previa de [**STM32CubeCLT**](https://www.st.com/en/development-tools/stm32cubeclt.html)(Command Line Tools) y [**STM32CubeMX**](https://www.st.com/en/development-tools/stm32cubemx.html)(Code Generator).
     *   *Nota:* Al configurar la extensión por primera vez, necesitas indicarle dónde encontrar `STM32CubeMX` y las herramientas de línea de comandos (`STM32CubeCLT`).
 *   **Git:** Sistema de control de versiones distribuido.
     *   [Descargar Git](https://git-scm.com/downloads)
@@ -24,7 +28,7 @@ Trabajaremos utilizando GitHub. Deberás crear tu propia copia (fork) de este re
 
 1.  Navega a la página principal del repositorio de la práctica en GitHub: [4100901-Intro_Project](https://github.com/saacifuentesmu/4100901-Intro_Project).
 2.  En la esquina superior derecha, haz clic en el botón **"Fork"**.
-3.  Selecciona tu cuenta de GitHub como destino para el fork. Esto creará una copia del repositorio bajo tu nombre de usuario (ej. `https://github.com/TuUsuario/NombreDelRepo`).
+3.  Selecciona tu cuenta de GitHub como destino para el fork. Esto creará una copia del repositorio bajo tu nombre de usuario (ej. `https://github.com/TuUsuario/4100901-Intro_Project`).
 
 ### 2.2 Clonar el Repositorio Forkeado
 
@@ -39,12 +43,6 @@ Trabajaremos utilizando GitHub. Deberás crear tu propia copia (fork) de este re
 6.  Esto descargará el repositorio a una nueva carpeta llamada `4100901-Intro_Project`.
 ![repo_clone](assets/repo_clone.png)
 
-
-### 2.3 Abrir el Proyecto en VS Code
-
-1.  Abre VS Code.
-2.  Ve a `File` > `Open Folder...` (o `Archivo` > `Abrir Carpeta...`).
-3.  Navega hasta la carpeta que acabas de clonar (`4100901-Intro_Project`) y selecciónala para abrir.
 
 ¡Listo! Tu entorno de desarrollo está preparado. Ahora puedes pasar a la siguiente sección para configurar el microcontrolador.
 

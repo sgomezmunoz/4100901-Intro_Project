@@ -1,13 +1,13 @@
 # Configuración del Proyecto con STM32CubeMX
 
-En esta sección, utilizaremos la funcionalidad de STM32CubeMX (integrada en la extensión de VS Code) para configurar los periféricos necesarios de la placa Nucleo-L476RG.
+En esta sección, utilizaremos la funcionalidad de STM32CubeMX para configurar los periféricos necesarios de la placa Nucleo-L476RG.
 
 ## 1. Abrir la Configuración de CubeMX
 
-1.  Asegúrate de tener el proyecto clonado abierto en VS Code.
-2.  Busca el archivo con extensión `.ioc` en el explorador de archivos de VS Code (ej., `4100901-Intro_Project.ioc`).
+1.  Asegúrate de tener el proyecto clonado abierto en el explorador de archivos.
+2.  Busca el archivo con extensión `.ioc` (ej., `4100901-Intro_Project.ioc`).
 3.  Haz clic derecho sobre el archivo `.ioc` y selecciona **"Open with STM32CubeMX"**.
-4.  Esto abrirá la interfaz gráfica de STM32CubeMX para la configuracion de los perifericos.
+4.  Esto abrirá la interfaz gráfica de STM32CubeMX para la configuración de los periféricos.
 
 ## 2. Configuración de Periféricos
 
@@ -58,7 +58,7 @@ Ve a la pestaña **"Pinout & Configuration"**.
     *   Busca la línea **"EXTI line[15:10] interrupts"** (PC13 corresponde a la línea EXTI 13, que está en este grupo).
     *   Asegúrate de que la casilla **"Enabled"** esté marcada. Esto permite que la interrupción del botón funcione.
 
-    *(Puedes incluir una imagen similar a `stm32cubemx_nvic.png` aquí si lo deseas)*
+![Pinout](assets/pinout_setup.png)
 
 ## 3. Generación del Código
 
@@ -68,6 +68,8 @@ Ve a la pestaña **"Pinout & Configuration"**.
     *   Asegúrate de que la `Toolchain / IDE` esté configurada como **`CMake`**. 
 3.  Haz clic en el botón **"Generate Code"** (usualmente un icono de engranaje o un botón con ese texto).
 4.  STM32CubeMX generará/actualizará los archivos de configuración y el código de inicialización HAL en tu proyecto dentro de las carpetas `Core` y `Drivers`.
+
+![Generate Code](assets/generate_code.png)
 
 ¡La configuración del hardware está lista! Ahora vamos a escribir la lógica de la aplicación.
 

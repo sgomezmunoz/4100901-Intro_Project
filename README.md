@@ -20,6 +20,17 @@ Comenzaremos con un enfoque práctico y guiado, utilizando herramientas que abst
 *   Enviar un mensaje al PC a través de comunicación serie (UART) cuando se presiona el botón.
 *   Recibir caracteres desde el PC y enviarlos de vuelta (eco).
 
+**Diagrama de Hardware:**
+
+![HW Diagram](assets/hw_diagram.png)
+
+**Documentación:**
+
+*  [NUCLEO-L476RG](https://www.st.com/en/evaluation-tools/nucleo-l476rg.html).
+*  [STM32 Nucleo-64 Boards](https://www.st.com/resource/en/user_manual/um1724-stm32-nucleo64-boards-mb1136-stmicroelectronics.pdf).
+*  [MB1136 Esquematico](https://www.st.com/resource/en/schematic_pack/mb1136-default-c03_schematic.pdf)
+*  [STM32L4 Series](https://www.st.com/resource/en/product_presentation/microcontrollers-stm32l4-series-product-overview.pdf)
+
 ## Estructura de la Guía
 
 Esta guía está dividida en varias secciones para facilitar el proceso:
